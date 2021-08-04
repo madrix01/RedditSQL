@@ -2,7 +2,7 @@
 -- User table
 CREATE TABLE Users(
     id INT AUTO_INCREMENT PRIMARY KEY,
-    email VARCHAR(255),
+    email VARCHAR(255) NOT NULL,
     username VARCHAR(255) UNIQUE,
     karma INT
 );
